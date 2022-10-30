@@ -7,3 +7,9 @@ Posteriormente see desplegará un contenedor asociado a ese dominio que cada 5 m
 informando sobre la IP actual. De esta manera cada vez que la operadora cambie tu IP, con un downtime máximo de 5 minutos volverás a poder acceder a tu dominio.
 
 Enlace: www.duckdns.org
+
+Pasos para la configuración:
+1. Registrarse en www.duckdns.org
+2. Registrar el dominio
+3. Modificar el archivo docker-compose.yaml indicando el token asociado a tu cuenta y el dominio que hayas dado de alta
+4. Ejecutar docker-compose up -d
