@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/22058960/198877232-8686f505-e27d-4e77-ab83-57181429220e.png)
+## Wake On LAN  
 
 Wake on LAN (WOL, a veces WoL) es un estándar de redes de computadoras Ethernet que permite encender remotamente computadoras apagadas.
 Esta funcionalidad está presente en muchas placas base y ha de activarse en la BIOS.
