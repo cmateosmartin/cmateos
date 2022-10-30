@@ -9,3 +9,6 @@ Su funcionamiento es simple: será nuestro servidor de DNS. Se configura nuestro
 2. Configurar el router
 3. Acceso mediante
 4. http://[local_ip]/admin/index.php
+
+![image](https://user-images.githubusercontent.com/22058960/198906224-14eefee5-f6d0-4147-9ace-6b5acc27ab26.png)
+
