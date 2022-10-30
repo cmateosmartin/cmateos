@@ -8,9 +8,7 @@ Instrucciones para activarlo en Ubuntu:
 2. Ejecutar **sudo ip link show** y analizar cual es la interfaz a través de la cual vas a mendar el paquete.
 3. Identificar la MAC de esta interfaz.
 4. Ejecutar **sudo ethtool [interfaz elegida]** y ver si la opción "Supports Wake-on" contiene la letra g (compatible con paquete mágico)
-5. Si la opción Wake-on tiene una "d" significa que está deshabilitada la funcionalidad. Habrá que ejecutar **sudo ethtool -s [interfaz_elegida] wol g** 
-
-
+5. Si la opción Wake-on tiene una "d" significa que está deshabilitada la funcionalidad. Habrá que ejecutar **sudo ethtool -s [interfaz_elegida] wol g**  
 En mi caso voy a emplear una raspberry pi que tengo encendida permanentemente, de tal manera que cuando quiera conectarme al PC lo enciendo remotamente.
 Pasos en la Raspberry:
 6. Lanzar un ifconfig y seleccionar la interfaz que se va a utilizar para mandar el paquete.
