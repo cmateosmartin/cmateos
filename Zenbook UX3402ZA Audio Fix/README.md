@@ -73,7 +73,7 @@ iasl -d dsdt.dat
 ```
 vim dsdt.dsl
 ```
-```
+```diff
 +++ dsdt.dsl	2023-03-26 12:00:45.643851841 +0200
 @@ -18,7 +18,7 @@
   *     Compiler ID      "INTL"
@@ -140,7 +140,7 @@ cp -p dsdt.aml /boot/dsdt.aml
 ```
 vim /etc/grub.d/01_acpi
 ```
-```
+```bash
 #! /bin/sh -e
 
 # Uncomment to load custom ACPI table
