@@ -24,7 +24,7 @@ Prerrequisitos:
     1.2 En caso de que la versión sea inferior a la version 6.x ejecutar los siguientes comandos:
     ```
     sudo apt-get update
-    sudo apt-get upgrade
+    sudo apt-get upgrade -y
     mkdir kernel && cd kernel
     ```
     ```
